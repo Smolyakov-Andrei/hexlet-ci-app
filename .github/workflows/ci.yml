@@ -20,13 +20,6 @@ jobs:
         
       - name: Run linter
         run: make lint
-      - name: Print Hello from Hexlet
-    uses: hexlet-components/hello-from-hexlet-action@release
-    
-steps:
-  - name: Checkout
-    id: checkout
-    uses: actions/checkout@v4
-
-  - name: Print Hello from Hexlet
-    uses: hexlet-components/hello-from-hexlet-action@release
+      
+      - name: Hello from Hexlet
+        uses: hexlet-components/hello-from-hexlet-action@release
